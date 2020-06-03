@@ -1,0 +1,11 @@
+div.mywork-container {
+	text-align: left;
+	border: solid #2CFF00 2px;
+	width: 55vw;
+	height: fit-content;
+	margin: 0 20vw 10vh 20vw;
+	background-color: white;
+	font-family: 'VT323', monospace;
+	font-size: 1.9vw;
+}
+
