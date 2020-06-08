@@ -2,11 +2,12 @@ import React, { Component } from 'react';
 import Parallax from 'parallax-js';
 import Mywork from '../Mywork/Mywork.js';
 import mywork1 from '../../immagini/Mywork1.png';
+import mywork2 from '../../immagini/Mywork2.png';
 import home from '../../immagini/home.png';
 
 const db = [
 	{
-		titolo: 'brain-reckon',
+		titolo: 'Face Recognition Application',
 		paragrafo: 'Face recognition application with back-end functionalities. Built using React.js library for the front-end and node/express.js for the server side.',
 		immagine: mywork1,
 		appLink: 'https://brain-reckon.herokuapp.com',
@@ -14,12 +15,12 @@ const db = [
 		backLink: 'https://github.com/tvasari/brain_reckon_api'
 	},
 	{
-		titolo: 'brain-reckon',
-		paragrafo: 'Face recognition application with back-end functionalities. Built using React.js library for the front-end and node/express.js for the server side.',
-		immagine: mywork1,
-		appLink: 'https://brain-reckon.herokuapp.com',
-		frontLink: 'https://github.com/tvasari/brain_reckon',
-		backLink: 'https://github.com/tvasari/brain_reckon_api'
+		titolo: 'Artwork Gallery Giuseppe Gnozzi',
+		paragrafo: "Sito web per l'artista astratto Giuseppe Gnozzi.",
+		immagine: mywork2,
+		appLink: 'https://gggnz.herokuapp.com/',
+		frontLink: 'https://github.com/tvasari/gggnz',
+		backLink: 'https://github.com/tvasari/gggnz_api'
 	}
 ];
 
