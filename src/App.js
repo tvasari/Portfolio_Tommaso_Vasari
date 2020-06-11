@@ -65,18 +65,26 @@ class App extends Component {
 			    <Fragment>
 			    	<img src={background} alt='' className='bg'/>
 					<ul id="scene" data-pointer-events="all">
-						<li onClick={(e) => this.changeRoute('bio')} className='layer' data-depth='0.7'>
-							<img src={bio} alt='' className='click'/>
+						<li onClick={(e) => this.changeRoute('bio')} className='layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={bio} alt='' className='click bio side-img msi'/>
+							</div>
 						</li>
-						<li onClick={(e) => this.changeRoute('contacts')} className='layer' data-depth='0.7'>
-							<img src={contacts} alt='' className='click'/>
+						<li onClick={(e) => this.changeRoute('contacts')} className='layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={contacts} alt='' className='click contacts side-img msi'/>
+							</div>
 						</li>
 						<Logo route={route}/>
-						<li onClick={(e) => this.changeRoute('works')} className='layer' data-depth='0.7'>
-							<img src={works} alt='' className='click'/>
+						<li onClick={(e) => this.changeRoute('works')} className='layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={works} alt='' className='click works side-img msi'/>
+							</div>
 						</li>
-						<li onClick={(e) => this.changeRoute('resume')} className='layer' data-depth='0.7'>
-							<img src={resume} alt='' className='click'/>
+						<li onClick={(e) => this.changeRoute('resume')} className='layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={resume} alt='' className='click resume side-img msi'/>
+							</div>
 						</li>
 					</ul>
 			    </Fragment>
@@ -86,30 +94,42 @@ class App extends Component {
 			    <Fragment>
 			    	<img src={background} alt='' className='bg'/>
 					<ul id="scene" data-pointer-events="all">
-						<li className='layer' data-depth='0.7'>
-							<img src={occupation} alt='' />
-							<br/>
-							<br/>
-							<img src={fullstack} alt='' />
+						<li className='layer side-layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={location} alt='' className='side-img info-img-top msi'/>
+								<div className='mini-box'>
+									<img src={rome} alt='' className='side-img info-img-bot'/>
+									<div className='search rome'></div>
+								</div>
+							</div>
 						</li>
-						<li className='layer' data-depth='0.7'>
-							<img src={age} alt='' />
-							<br/>
-							<br/>
-							<img src={a28} alt='' />							
+						<li className='layer side-layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={age} alt='' className='side-img info-img-top msi'/>
+								<div className='mini-box'>
+									<img src={a28} alt='' className='side-img info-img-bot'/>
+									<div className='search a28'></div>
+								</div>
+							</div>						
 						</li>
 						<Logo route={route} changeRoute={this.changeRoute}/>
-						<li className='layer' data-depth='0.7'>
-							<img src={speaks} alt='' />
-							<br/>
-							<br/>
-							<img src={lang} alt='' />							
+						<li className='layer side-layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={occupation} alt='' className='side-img info-img-top msi occupation'/>
+								<div className='mini-box'>
+									<img src={fullstack} alt='' className='side-img info-img-bot fullstack'/>
+									<div className='search fullstack'></div>
+								</div>
+							</div>						
 						</li>
-						<li className='layer' data-depth='0.7'>
-							<img src={location} alt='' />
-							<br/>
-							<br/>
-							<img src={rome} alt='' />							
+						<li className='layer side-layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={speaks} alt='' className='side-img info-img-top msi speaks'/>
+								<div className='mini-box'>
+									<img src={lang} alt='' className='side-img info-img-bot lang'/>
+									<div className='search lang'></div>
+								</div>
+							</div>							
 						</li>
 					</ul>
 			    </Fragment>
@@ -119,35 +139,39 @@ class App extends Component {
 			    <Fragment>
 			    	<img src={background} alt='' className='bg'/>
 					<ul id="scene" data-pointer-events="all">
-						<li className='layer' data-depth='0.7'>
-							<img src={email} alt='' />
-							{/*<img src={lobster} alt='' className='absolute' style={{left: '-35px'}}/>*/}
-							<br/>
-							<br/>
-							<img onClick={e => this.emailMe()} src={email1} alt='' className='click'/>
+						<li className='layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<a href='https://github.com/tvasari'>
+									<img src={github} alt='' className='side-img info-img-top msi'/>
+								</a>
+							</div>							
 						</li>
-						<li className='layer' data-depth='0.7'>
-							<img src={mobile} alt='' />
-							<br/>
-							<br/>
-							<img src={mobilenumber} alt='' />							
-						</li>
-						<Logo route={route} changeRoute={this.changeRoute}/>
-						<li className='layer' data-depth='0.7'>
-							<img src={github} alt='' />
-							<br/>
-							<br/>
-							<a href='https://github.com/tvasari'>
-								<img src={githublink} alt='' />
-							</a>							
-						</li>
-						<li className='layer' data-depth='0.7'>
-							<img src={linkedin} alt='' />
-							<br/>
-							<br/>
-							<a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/'>
-								<img src={linkedinlink} alt=''/>
-							</a>							
+						<li className='layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/'>
+									<img src={linkedin} alt='' className='side-img info-img-top msi'/>
+								</a>
+							</div>								
+						</li>						
+						<Logo route={route} changeRoute={this.changeRoute}/>						
+						<li className='layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={email} alt='' className='side-img msi info-img-top'/>
+								{/*<img src={lobster} alt='' className='absolute' style={{left: '-35px'}}/>*/}
+								<br/>
+								<br/>
+								<img onClick={e => this.emailMe()} src={email1} alt='' className='click side-img info-img-bot'/>
+							</div>	
+						</li>						
+						<li className='layer no-logo' data-depth='0.7'>
+							<div className='box-img'>
+								<img src={mobile} alt='' className='side-img msi info-img-top'/>
+								<br/>
+								<br/>
+								<a href='tel:+39 3426822422'>
+									<img src={mobilenumber} alt='' className='side-img info-img-bot'/>
+								</a>
+							</div>								
 						</li>
 					</ul>
 			    </Fragment>
@@ -165,17 +189,25 @@ class App extends Component {
 			    	<img src={background} alt='' className='bg'/>
 					<ul id="scene" data-pointer-events="all">
 						<li onClick={(e) => this.changeRoute('bio')} className='layer' data-depth='0.7'>
-							<img src={bio} alt='' className='click'/>
+							<div className='box-img'>
+								<img src={bio} alt='' className='click bio side-img'/>
+							</div>
 						</li>
 						<li onClick={(e) => this.changeRoute('contacts')} className='layer' data-depth='0.7'>
-							<img src={contacts} alt='' className='click'/>
+							<div className='box-img'>
+								<img src={contacts} alt='' className='click side-img'/>
+							</div>
 						</li>
 						<Logo route={route}/>
 						<li onClick={(e) => this.changeRoute('works')} className='layer' data-depth='0.7'>
-							<img src={works} alt='' className='click'/>
+							<div className='box-img'>
+								<img src={works} alt='' className='click side-img'/>
+							</div>
 						</li>
 						<li onClick={(e) => this.changeRoute('resume')} className='layer' data-depth='0.7'>
-							<img src={resume} alt='' className='click'/>
+							<div className='box-img'>
+								<img src={resume} alt='' className='click side-img'/>
+							</div>
 						</li>
 					</ul>
 			    </Fragment>

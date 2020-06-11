@@ -16,7 +16,7 @@ const db = [
 	},
 	{
 		titolo: 'Artwork Gallery Giuseppe Gnozzi',
-		paragrafo: "Sito web per l'artista astratto Giuseppe Gnozzi.",
+		paragrafo: "Sito web concettuale per l'artista astratto Giuseppe Gnozzi.",
 		immagine: mywork2,
 		appLink: 'https://gggnz.herokuapp.com/',
 		frontLink: 'https://github.com/tvasari/gggnz',
