@@ -24,7 +24,7 @@ import contacts from './immagini/contacts.png';
 		import linkedinlink from './immagini/linkedinlink.png';
 import works from './immagini/works.png';
 import resume from './immagini/resume.png';
-import background from './immagini/jungle_background8.jpg';
+import background from './immagini/800px.gif';
 import lobster from './immagini/lobster.jpg';
 
 
