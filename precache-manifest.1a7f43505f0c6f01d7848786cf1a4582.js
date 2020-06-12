@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5974a91dedc0a89b6d6b13be299de929",
+    "revision": "25df63390001b9cefcb037fd80610c50",
     "url": "/Portfolio_Tommaso_Vasari/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio_Tommaso_Vasari/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "b81264bb865cdd53f6d4",
-    "url": "/Portfolio_Tommaso_Vasari/static/css/main.ecd4c563.chunk.css"
+    "revision": "0491039bba04a354d873",
+    "url": "/Portfolio_Tommaso_Vasari/static/css/main.eea2ad8d.chunk.css"
   },
   {
     "revision": "e2dad59b6887180d1e89",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b81264bb865cdd53f6d4",
-    "url": "/Portfolio_Tommaso_Vasari/static/js/main.8d9c90f3.chunk.js"
+    "revision": "0491039bba04a354d873",
+    "url": "/Portfolio_Tommaso_Vasari/static/js/main.b09e71cb.chunk.js"
   },
   {
     "revision": "f96682bb49c1998dfc14",
@@ -38,9 +38,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "f62205dab189bd97d2296c7e9595addb",
     "url": "/Portfolio_Tommaso_Vasari/static/media/Mywork2.f62205da.png"
-  },
-  {
-    "revision": "3e1260c9e3a519d05c21e53ac99cd613",
-    "url": "/Portfolio_Tommaso_Vasari/static/media/lobster.3e1260c9.jpg"
   }
 ]);
