@@ -1,11 +1,23 @@
 div.mywork-container {
+	border: solid #2CFF00 2px;
+	width: 55vw;
+	height: 58vh;
+	margin: 0 20vw 3vh 20vw;
+}
+
+.proj-img {
+	height: 100%;
+	width: 100%;
+}
+
+div.mytext-container {
 	text-align: left;
 	border: solid #2CFF00 2px;
 	width: 55vw;
 	height: fit-content;
-	margin: 0 20vw 10vh 20vw;
+	margin: 0 20vw 13vh 20vw;
 	background-color: white;
 	font-family: 'VT323', monospace;
-	font-size: 1.9vw;
+	font-size: 1.5rem;
 }
 

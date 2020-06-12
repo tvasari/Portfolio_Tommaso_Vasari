@@ -19,14 +19,10 @@ import contacts from './immagini/contacts.png';
 	import mobile from './immagini/mobile.png';
 		import mobilenumber from './immagini/mobilenumber.png';
 	import github from './immagini/github.png';
-		import githublink from './immagini/githublink.png';
 	import linkedin from './immagini/linkedin.png';
-		import linkedinlink from './immagini/linkedinlink.png';
 import works from './immagini/works.png';
 import resume from './immagini/resume.png';
 import background from './immagini/800px.gif';
-import lobster from './immagini/lobster.jpg';
-
 
 class App extends Component {
 	constructor(props) {
@@ -96,7 +92,7 @@ class App extends Component {
 					<ul id="scene" data-pointer-events="all">
 						<li className='layer side-layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={location} alt='' className='side-img info-img-top msi'/>
+								<img src={location} alt='' className='side-img info-img-top msi location'/>
 								<div className='mini-box'>
 									<img src={rome} alt='' className='side-img info-img-bot'/>
 									<div className='search rome'></div>
@@ -156,21 +152,22 @@ class App extends Component {
 						<Logo route={route} changeRoute={this.changeRoute}/>						
 						<li className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={email} alt='' className='side-img msi info-img-top'/>
-								{/*<img src={lobster} alt='' className='absolute' style={{left: '-35px'}}/>*/}
-								<br/>
-								<br/>
-								<img onClick={e => this.emailMe()} src={email1} alt='' className='click side-img info-img-bot'/>
+								<img src={email} alt='' className='side-img msi info-img-top email'/>
+								<div className='mini-box'>
+									<img onClick={e => this.emailMe()} src={email1} alt='' className='email1 click side-img info-img-bot'/>
+									<div className='search email1'></div>
+								</div>
 							</div>	
 						</li>						
 						<li className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={mobile} alt='' className='side-img msi info-img-top'/>
-								<br/>
-								<br/>
-								<a href='tel:+39 3426822422'>
-									<img src={mobilenumber} alt='' className='side-img info-img-bot'/>
-								</a>
+								<img src={mobile} alt='' className='side-img msi info-img-top mobile'/>
+								<div className='mini-box'>
+									<a href='tel:+39 3426822422'>
+										<img src={mobilenumber} alt='' className='side-img info-img-bot'/>
+										<div className='search mobilenumber'></div>
+									</a>
+								</div>
 							</div>								
 						</li>
 					</ul>
@@ -188,25 +185,25 @@ class App extends Component {
 			    <Fragment>
 			    	<img src={background} alt='' className='bg'/>
 					<ul id="scene" data-pointer-events="all">
-						<li onClick={(e) => this.changeRoute('bio')} className='layer' data-depth='0.7'>
+						<li onClick={(e) => this.changeRoute('bio')} className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={bio} alt='' className='click bio side-img'/>
+								<img src={bio} alt='' className='click bio side-img msi'/>
 							</div>
 						</li>
-						<li onClick={(e) => this.changeRoute('contacts')} className='layer' data-depth='0.7'>
+						<li onClick={(e) => this.changeRoute('contacts')} className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={contacts} alt='' className='click side-img'/>
+								<img src={contacts} alt='' className='click contacts side-img msi'/>
 							</div>
 						</li>
 						<Logo route={route}/>
-						<li onClick={(e) => this.changeRoute('works')} className='layer' data-depth='0.7'>
+						<li onClick={(e) => this.changeRoute('works')} className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={works} alt='' className='click side-img'/>
+								<img src={works} alt='' className='click works side-img msi'/>
 							</div>
 						</li>
-						<li onClick={(e) => this.changeRoute('resume')} className='layer' data-depth='0.7'>
+						<li onClick={(e) => this.changeRoute('resume')} className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={resume} alt='' className='click side-img'/>
+								<img src={resume} alt='' className='click resume side-img msi'/>
 							</div>
 						</li>
 					</ul>

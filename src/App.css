@@ -101,6 +101,14 @@ div.fullstack {
   left: 113%;
 }
 
+.mobilenumber {
+  left: 102%;
+}
+
+.email1 {
+  left: 101%;
+}
+
 .mini-box {
   margin-top: 39px;
   position: absolute;
@@ -112,20 +120,8 @@ div.fullstack {
   height: 1.8rem;
 }
 
-img.occupation {
+a img.msi, img.speaks, img.mobile, img.email, img.occupation, img.location, img.fullstack, img.contacts, img.works, img.resume {
   max-width: 175%;
-}
-
-img.fullstack {
-  max-width: 175%;
-}
-
-img.speaks {
-  max-width: 170%;
-}
-
-img.lang {
-  max-width: 170%;
 }
 
 @media only screen and (max-width: 900px) {

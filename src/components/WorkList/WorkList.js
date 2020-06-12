@@ -7,8 +7,11 @@ import home from '../../immagini/home.png';
 
 const db = [
 	{
-		titolo: 'Face Recognition Application',
-		paragrafo: 'Face recognition application with back-end functionalities. Built using React.js library for the front-end and node/express.js for the server side.',
+		titolo: 'Brain Rekon',
+		paragrafo: `Face recognition application with back-end functionalities. 
+								After registration, the user can detect a face on an image by submitting the image URL. 
+								Registered users are stored in a database which remembers the number of times a user made a search. 
+								The project was built using React.js for the front-end and node/express.js for the server side.`,
 		immagine: mywork1,
 		appLink: 'https://brain-reckon.herokuapp.com',
 		frontLink: 'https://github.com/tvasari/brain_reckon',
@@ -45,13 +48,14 @@ class WorkList extends Component {
 	render() {
 		return(
 			<ul id='scene' className='overflow-auto' data-pointer-events="all">
-				<li onClick={(e) => this.props.changeRoute('home')} className='layer mt4 mb4' style={{width: '10vw', 'grid-column-start': 'span 2',}} data-depth='0.3'>
+				<li onClick={(e) => this.props.changeRoute('home')} className='layer ml4 mt4 mb4' style={{width: '14vw', 'grid-column-start': 'span 2',}} data-depth='0.3'>
 					<img src={home} alt='' className='click'/>
 				</li>
 				<li className='layer' data-depth='0.2'>
 				{
 					db.map(work => {
-						return <Mywork 
+						return <Mywork
+								key={work.appLink}
 								titolo={work.titolo}
 								paragrafo={work.paragrafo}
 								immagine={work.immagine}
