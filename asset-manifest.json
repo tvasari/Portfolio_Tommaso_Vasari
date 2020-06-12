@@ -1,29 +1,29 @@
 {
   "files": {
-    "main.css": "/tportfolio/static/css/main.2dd492e0.chunk.css",
-    "main.js": "/tportfolio/static/js/main.7474fb21.chunk.js",
-    "main.js.map": "/tportfolio/static/js/main.7474fb21.chunk.js.map",
-    "runtime-main.js": "/tportfolio/static/js/runtime-main.d9e8d04f.js",
-    "runtime-main.js.map": "/tportfolio/static/js/runtime-main.d9e8d04f.js.map",
-    "static/css/2.3c03f26f.chunk.css": "/tportfolio/static/css/2.3c03f26f.chunk.css",
-    "static/js/2.8cd11a7d.chunk.js": "/tportfolio/static/js/2.8cd11a7d.chunk.js",
-    "static/js/2.8cd11a7d.chunk.js.map": "/tportfolio/static/js/2.8cd11a7d.chunk.js.map",
-    "index.html": "/tportfolio/index.html",
-    "precache-manifest.decfd695a4abfedf9bcb46b6b054b576.js": "/tportfolio/precache-manifest.decfd695a4abfedf9bcb46b6b054b576.js",
-    "service-worker.js": "/tportfolio/service-worker.js",
-    "static/css/2.3c03f26f.chunk.css.map": "/tportfolio/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.2dd492e0.chunk.css.map": "/tportfolio/static/css/main.2dd492e0.chunk.css.map",
-    "static/js/2.8cd11a7d.chunk.js.LICENSE.txt": "/tportfolio/static/js/2.8cd11a7d.chunk.js.LICENSE.txt",
-    "static/media/Mywork1.png": "/tportfolio/static/media/Mywork1.d8745453.png",
-    "static/media/Mywork2.png": "/tportfolio/static/media/Mywork2.f62205da.png",
-    "static/media/jungle_background8.jpg": "/tportfolio/static/media/jungle_background8.dd2de89a.jpg",
-    "static/media/lobster.jpg": "/tportfolio/static/media/lobster.3e1260c9.jpg"
+    "main.css": "/Portfolio_Tommaso_Vasari/static/css/main.ecd4c563.chunk.css",
+    "main.js": "/Portfolio_Tommaso_Vasari/static/js/main.8d9c90f3.chunk.js",
+    "main.js.map": "/Portfolio_Tommaso_Vasari/static/js/main.8d9c90f3.chunk.js.map",
+    "runtime-main.js": "/Portfolio_Tommaso_Vasari/static/js/runtime-main.3e7c1625.js",
+    "runtime-main.js.map": "/Portfolio_Tommaso_Vasari/static/js/runtime-main.3e7c1625.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/Portfolio_Tommaso_Vasari/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.8cd11a7d.chunk.js": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js",
+    "static/js/2.8cd11a7d.chunk.js.map": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js.map",
+    "index.html": "/Portfolio_Tommaso_Vasari/index.html",
+    "precache-manifest.d7c526a2b8d9cf84f76f97e2d4e3aa7f.js": "/Portfolio_Tommaso_Vasari/precache-manifest.d7c526a2b8d9cf84f76f97e2d4e3aa7f.js",
+    "service-worker.js": "/Portfolio_Tommaso_Vasari/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/Portfolio_Tommaso_Vasari/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.ecd4c563.chunk.css.map": "/Portfolio_Tommaso_Vasari/static/css/main.ecd4c563.chunk.css.map",
+    "static/js/2.8cd11a7d.chunk.js.LICENSE.txt": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js.LICENSE.txt",
+    "static/media/800px.gif": "/Portfolio_Tommaso_Vasari/static/media/800px.fd980a7d.gif",
+    "static/media/Mywork1.png": "/Portfolio_Tommaso_Vasari/static/media/Mywork1.d8745453.png",
+    "static/media/Mywork2.png": "/Portfolio_Tommaso_Vasari/static/media/Mywork2.f62205da.png",
+    "static/media/lobster.jpg": "/Portfolio_Tommaso_Vasari/static/media/lobster.3e1260c9.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9e8d04f.js",
+    "static/js/runtime-main.3e7c1625.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.8cd11a7d.chunk.js",
-    "static/css/main.2dd492e0.chunk.css",
-    "static/js/main.7474fb21.chunk.js"
+    "static/css/main.ecd4c563.chunk.css",
+    "static/js/main.8d9c90f3.chunk.js"
   ]
 }
