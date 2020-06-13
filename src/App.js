@@ -22,7 +22,7 @@ import contacts from './immagini/contacts.png';
 	import linkedin from './immagini/linkedin.png';
 import works from './immagini/works.png';
 import resume from './immagini/resume.png';
-import background from './immagini/800px.gif';
+import background from './immagini/f800px.gif';
 
 class App extends Component {
 	constructor(props) {
