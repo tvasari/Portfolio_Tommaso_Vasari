@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/Portfolio_Tommaso_Vasari/static/css/main.eea2ad8d.chunk.css",
-    "main.js": "/Portfolio_Tommaso_Vasari/static/js/main.b09e71cb.chunk.js",
-    "main.js.map": "/Portfolio_Tommaso_Vasari/static/js/main.b09e71cb.chunk.js.map",
+    "main.css": "/Portfolio_Tommaso_Vasari/static/css/main.7e6248e8.chunk.css",
+    "main.js": "/Portfolio_Tommaso_Vasari/static/js/main.e6061e44.chunk.js",
+    "main.js.map": "/Portfolio_Tommaso_Vasari/static/js/main.e6061e44.chunk.js.map",
     "runtime-main.js": "/Portfolio_Tommaso_Vasari/static/js/runtime-main.3e7c1625.js",
     "runtime-main.js.map": "/Portfolio_Tommaso_Vasari/static/js/runtime-main.3e7c1625.js.map",
     "static/css/2.3c03f26f.chunk.css": "/Portfolio_Tommaso_Vasari/static/css/2.3c03f26f.chunk.css",
     "static/js/2.8cd11a7d.chunk.js": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js",
     "static/js/2.8cd11a7d.chunk.js.map": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js.map",
     "index.html": "/Portfolio_Tommaso_Vasari/index.html",
-    "precache-manifest.1a7f43505f0c6f01d7848786cf1a4582.js": "/Portfolio_Tommaso_Vasari/precache-manifest.1a7f43505f0c6f01d7848786cf1a4582.js",
+    "precache-manifest.0ac7df47740224fc58aeb902bb29e46f.js": "/Portfolio_Tommaso_Vasari/precache-manifest.0ac7df47740224fc58aeb902bb29e46f.js",
     "service-worker.js": "/Portfolio_Tommaso_Vasari/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/Portfolio_Tommaso_Vasari/static/css/2.3c03f26f.chunk.css.map",
-    "static/css/main.eea2ad8d.chunk.css.map": "/Portfolio_Tommaso_Vasari/static/css/main.eea2ad8d.chunk.css.map",
+    "static/css/main.7e6248e8.chunk.css.map": "/Portfolio_Tommaso_Vasari/static/css/main.7e6248e8.chunk.css.map",
     "static/js/2.8cd11a7d.chunk.js.LICENSE.txt": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js.LICENSE.txt",
-    "static/media/800px.gif": "/Portfolio_Tommaso_Vasari/static/media/800px.fd980a7d.gif",
     "static/media/Mywork1.png": "/Portfolio_Tommaso_Vasari/static/media/Mywork1.d8745453.png",
-    "static/media/Mywork2.png": "/Portfolio_Tommaso_Vasari/static/media/Mywork2.f62205da.png"
+    "static/media/Mywork2.png": "/Portfolio_Tommaso_Vasari/static/media/Mywork2.f62205da.png",
+    "static/media/f800px.gif": "/Portfolio_Tommaso_Vasari/static/media/f800px.48bbaf63.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.3e7c1625.js",
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.8cd11a7d.chunk.js",
-    "static/css/main.eea2ad8d.chunk.css",
-    "static/js/main.b09e71cb.chunk.js"
+    "static/css/main.7e6248e8.chunk.css",
+    "static/js/main.e6061e44.chunk.js"
   ]
 }
