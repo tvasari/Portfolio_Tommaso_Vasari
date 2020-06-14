@@ -29,3 +29,27 @@ button.langchange {
 	outline: none;
 }
 
+
+@media only screen and (max-width: 414px) {
+	div.mywork-container {
+		margin: 0 7vw 13vh 7vw;
+		width: 85vw;
+		height: 40vh;
+	}
+	div.mytext-container {
+		margin: 0 7vw 13vh 7vw;
+		width: 85vw;
+	}
+	.bot-link {
+		padding-right: 10px;
+	}
+	h4 {
+		width: 18rem;
+	}
+}
+
+@media only screen and (max-width: 360px) {
+	h4 {
+		width: 13rem;
+	}
+}

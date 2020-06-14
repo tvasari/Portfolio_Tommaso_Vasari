@@ -77,9 +77,11 @@ class App extends Component {
 								<img src={works} alt='' className='click works side-img msi'/>
 							</div>
 						</li>
-						<li onClick={(e) => this.changeRoute('resume')} className='layer no-logo' data-depth='0.7'>
+						<li className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={resume} alt='' className='click resume side-img msi'/>
+								<a target="_blank" href='https://docs.google.com/document/d/e/2PACX-1vTjp8fXdj8saq_Dinjc16PmcdwgPig6owwYq9VSTLQbFpUxqWXXldbula1RfLkphQ9Zy9zNlBAKGsOX/pub'>
+									<img src={resume} alt='' className='click resume side-img msi'/>
+								</a>
 							</div>
 						</li>
 					</ul>
@@ -137,14 +139,14 @@ class App extends Component {
 					<ul id="scene" data-pointer-events="all">
 						<li className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<a href='https://github.com/tvasari'>
+								<a href='https://github.com/tvasari' target="_blank">
 									<img src={github} alt='' className='side-img info-img-top msi'/>
 								</a>
 							</div>							
 						</li>
 						<li className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/'>
+								<a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/' target="_blank">
 									<img src={linkedin} alt='' className='side-img info-img-top msi'/>
 								</a>
 							</div>								
@@ -201,9 +203,11 @@ class App extends Component {
 								<img src={works} alt='' className='click works side-img msi'/>
 							</div>
 						</li>
-						<li onClick={(e) => this.changeRoute('resume')} className='layer no-logo' data-depth='0.7'>
+						<li className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<img src={resume} alt='' className='click resume side-img msi'/>
+								<a target="_blank" href='https://docs.google.com/document/d/e/2PACX-1vTjp8fXdj8saq_Dinjc16PmcdwgPig6owwYq9VSTLQbFpUxqWXXldbula1RfLkphQ9Zy9zNlBAKGsOX/pub'>
+									<img src={resume} alt='' className='click resume side-img msi'/>
+								</a>
 							</div>
 						</li>
 					</ul>

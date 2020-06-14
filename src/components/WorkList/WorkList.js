@@ -17,7 +17,7 @@ const db = [
     			Gli utenti registrati vengono memorizzati in un database il quale ricorda il numero di volte che l'utente effettua una ricerca.
     			Il progetto è stato realizzato usando React.js per il front-end e node/express.js per il lato server.`,
 		immagine: mywork1,
-		appLink: 'https://brain-reckon.herokuapp.com',
+		appLink: 'https://brain-rekon.herokuapp.com',
 		frontLink: 'https://github.com/tvasari/brain_reckon',
 		backLink: 'https://github.com/tvasari/brain_reckon_api'
 	},
