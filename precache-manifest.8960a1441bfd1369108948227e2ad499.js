@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "769bf9d963ec7e79ddd4108e08417545",
+    "revision": "68dcb38deb3fa60597e1cac062e8bb42",
     "url": "/Portfolio_Tommaso_Vasari/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio_Tommaso_Vasari/static/css/2.3c03f26f.chunk.css"
   },
   {
-    "revision": "538fdc588100842cf94b",
+    "revision": "45dddb26fa9ab365063b",
     "url": "/Portfolio_Tommaso_Vasari/static/css/main.5fa488dd.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "538fdc588100842cf94b",
-    "url": "/Portfolio_Tommaso_Vasari/static/js/main.1c530da0.chunk.js"
+    "revision": "45dddb26fa9ab365063b",
+    "url": "/Portfolio_Tommaso_Vasari/static/js/main.8ce80ad6.chunk.js"
   },
   {
     "revision": "f96682bb49c1998dfc14",

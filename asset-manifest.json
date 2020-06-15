@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Portfolio_Tommaso_Vasari/static/css/main.5fa488dd.chunk.css",
-    "main.js": "/Portfolio_Tommaso_Vasari/static/js/main.1c530da0.chunk.js",
-    "main.js.map": "/Portfolio_Tommaso_Vasari/static/js/main.1c530da0.chunk.js.map",
+    "main.js": "/Portfolio_Tommaso_Vasari/static/js/main.8ce80ad6.chunk.js",
+    "main.js.map": "/Portfolio_Tommaso_Vasari/static/js/main.8ce80ad6.chunk.js.map",
     "runtime-main.js": "/Portfolio_Tommaso_Vasari/static/js/runtime-main.3e7c1625.js",
     "runtime-main.js.map": "/Portfolio_Tommaso_Vasari/static/js/runtime-main.3e7c1625.js.map",
     "static/css/2.3c03f26f.chunk.css": "/Portfolio_Tommaso_Vasari/static/css/2.3c03f26f.chunk.css",
     "static/js/2.8cd11a7d.chunk.js": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js",
     "static/js/2.8cd11a7d.chunk.js.map": "/Portfolio_Tommaso_Vasari/static/js/2.8cd11a7d.chunk.js.map",
     "index.html": "/Portfolio_Tommaso_Vasari/index.html",
-    "precache-manifest.647ecc37c47b7cf23f387f46e4839fb7.js": "/Portfolio_Tommaso_Vasari/precache-manifest.647ecc37c47b7cf23f387f46e4839fb7.js",
+    "precache-manifest.8960a1441bfd1369108948227e2ad499.js": "/Portfolio_Tommaso_Vasari/precache-manifest.8960a1441bfd1369108948227e2ad499.js",
     "service-worker.js": "/Portfolio_Tommaso_Vasari/service-worker.js",
     "static/css/2.3c03f26f.chunk.css.map": "/Portfolio_Tommaso_Vasari/static/css/2.3c03f26f.chunk.css.map",
     "static/css/main.5fa488dd.chunk.css.map": "/Portfolio_Tommaso_Vasari/static/css/main.5fa488dd.chunk.css.map",
@@ -23,6 +23,6 @@
     "static/css/2.3c03f26f.chunk.css",
     "static/js/2.8cd11a7d.chunk.js",
     "static/css/main.5fa488dd.chunk.css",
-    "static/js/main.1c530da0.chunk.js"
+    "static/js/main.8ce80ad6.chunk.js"
   ]
 }
