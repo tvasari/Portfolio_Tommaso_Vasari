@@ -30,7 +30,7 @@ const db = [
 					Le pagine "Home" e "Works" sono completamente esplorabili cliccando e trascinando la pagina e in "Works" cliccando su di un'immagine qualsiasi si aprirà una più grande versione di essa accompagnata dalle sue proprietà.
 					Inoltre la barra di ricerca permette di filtrare le immagini mostrando solo i dipinti desiderati in base alle lettere inserite e la loro corrispondenza nelle tag delle immagini.`,
 		immagine: mywork2,
-		appLink: 'https://gggnz.herokuapp.com/',
+		appLink: 'https://giuseppegnozzi.xyz',
 		frontLink: 'https://github.com/tvasari/gggnz',
 		backLink: 'https://github.com/tvasari/gggnz_api'
 	}
