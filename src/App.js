@@ -1,4 +1,5 @@
 import React, { Component, Fragment } from 'react';
+
 import './App.css';
 import Parallax from 'parallax-js';
 import WorkList from './components/WorkList/WorkList.js'
@@ -60,31 +61,31 @@ class App extends Component {
 			case 'home': return (
 			    <Fragment>
 			    	<img src={background} alt='' className='bg'/>
-					<ul id="scene" data-pointer-events="all">
-						<li onClick={(e) => this.changeRoute('bio')} className='layer no-logo' data-depth='0.7'>
-							<div className='box-img'>
-								<img src={bio} alt='' className='click bio side-img msi'/>
-							</div>
-						</li>
-						<li onClick={(e) => this.changeRoute('contacts')} className='layer no-logo' data-depth='0.7'>
-							<div className='box-img'>
-								<img src={contacts} alt='' className='click contacts side-img msi'/>
-							</div>
-						</li>
-						<Logo route={route}/>
-						<li onClick={(e) => this.changeRoute('works')} className='layer no-logo' data-depth='0.7'>
-							<div className='box-img'>
-								<img src={works} alt='' className='click works side-img msi'/>
-							</div>
-						</li>
-						<li className='layer no-logo' data-depth='0.7'>
-							<div className='box-img'>
-								<a target="_blank" href='https://docs.google.com/document/d/e/2PACX-1vTjp8fXdj8saq_Dinjc16PmcdwgPig6owwYq9VSTLQbFpUxqWXXldbula1RfLkphQ9Zy9zNlBAKGsOX/pub'>
-									<img src={resume} alt='' className='click resume side-img msi'/>
-								</a>
-							</div>
-						</li>
-					</ul>
+						<ul id="scene" data-pointer-events="all">
+							<li onClick={(e) => this.changeRoute('bio')} className='layer no-logo' data-depth='0.7'>
+								<div className='box-img'>
+									<img src={bio} alt='' className='click bio side-img msi'/>
+								</div>
+							</li>
+							<li onClick={(e) => this.changeRoute('contacts')} className='layer no-logo' data-depth='0.7'>
+								<div className='box-img'>
+									<img src={contacts} alt='' className='click contacts side-img msi'/>
+								</div>
+							</li>
+							<Logo route={route}/>
+							<li onClick={(e) => this.changeRoute('works')} className='layer no-logo' data-depth='0.7'>
+								<div className='box-img'>
+									<img src={works} alt='' className='click works side-img msi'/>
+								</div>
+							</li>
+							<li className='layer no-logo' data-depth='0.7'>
+								<div className='box-img'>
+									<a href='https://tvasari.github.io/' rel="noopener noreferrer" target="_blank">
+										<img src={resume} alt='' className='click resume side-img msi'/>
+									</a>
+								</div>
+							</li>
+						</ul>
 			    </Fragment>
   			);
 
@@ -139,14 +140,14 @@ class App extends Component {
 					<ul id="scene" data-pointer-events="all">
 						<li className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<a href='https://github.com/tvasari' target="_blank">
+								<a rel="noopener noreferrer" href='https://github.com/tvasari' target="_blank">
 									<img src={github} alt='' className='side-img info-img-top msi'/>
 								</a>
 							</div>							
 						</li>
 						<li className='layer no-logo' data-depth='0.7'>
 							<div className='box-img'>
-								<a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/' target="_blank">
+								<a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/' target="_blank" rel="noopener noreferrer">
 									<img src={linkedin} alt='' className='side-img info-img-top msi'/>
 								</a>
 							</div>								
@@ -186,31 +187,31 @@ class App extends Component {
   			default: return (
 			    <Fragment>
 			    	<img src={background} alt='' className='bg'/>
-					<ul id="scene" data-pointer-events="all">
-						<li onClick={(e) => this.changeRoute('bio')} className='layer no-logo' data-depth='0.7'>
-							<div className='box-img'>
-								<img src={bio} alt='' className='click bio side-img msi'/>
-							</div>
-						</li>
-						<li onClick={(e) => this.changeRoute('contacts')} className='layer no-logo' data-depth='0.7'>
-							<div className='box-img'>
-								<img src={contacts} alt='' className='click contacts side-img msi'/>
-							</div>
-						</li>
-						<Logo route={route}/>
-						<li onClick={(e) => this.changeRoute('works')} className='layer no-logo' data-depth='0.7'>
-							<div className='box-img'>
-								<img src={works} alt='' className='click works side-img msi'/>
-							</div>
-						</li>
-						<li className='layer no-logo' data-depth='0.7'>
-							<div className='box-img'>
-								<a target="_blank" href='https://docs.google.com/document/d/e/2PACX-1vTjp8fXdj8saq_Dinjc16PmcdwgPig6owwYq9VSTLQbFpUxqWXXldbula1RfLkphQ9Zy9zNlBAKGsOX/pub'>
-									<img src={resume} alt='' className='click resume side-img msi'/>
-								</a>
-							</div>
-						</li>
-					</ul>
+						<ul id="scene" data-pointer-events="all">
+							<li onClick={(e) => this.changeRoute('bio')} className='layer no-logo' data-depth='0.7'>
+								<div className='box-img'>
+									<img src={bio} alt='' className='click bio side-img msi'/>
+								</div>
+							</li>
+							<li onClick={(e) => this.changeRoute('contacts')} className='layer no-logo' data-depth='0.7'>
+								<div className='box-img'>
+									<img src={contacts} alt='' className='click contacts side-img msi'/>
+								</div>
+							</li>
+							<Logo route={route}/>
+							<li onClick={(e) => this.changeRoute('works')} className='layer no-logo' data-depth='0.7'>
+								<div className='box-img'>
+									<img src={works} alt='' className='click works side-img msi'/>
+								</div>
+							</li>
+							<li className='layer no-logo' data-depth='0.7'>
+								<div className='box-img'>
+									<a href='https://tvasari.github.io/' rel="noopener noreferrer" target="_blank">
+										<img src={resume} alt='' className='click resume side-img msi'/>
+									</a>
+								</div>
+							</li>
+						</ul>
 			    </Fragment>
   			);
 		}

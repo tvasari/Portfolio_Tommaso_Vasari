@@ -20,14 +20,14 @@ const Mywork = ( {immagine, titolo, paragrafo, appLink, frontLink, backLink, cha
 					{
 						paragrafoIsEng === true ?
 						<Fragment>
-							<a className='bot-link' href={appLink} target="_blank">Go to the project</a>
-							<a className='bot-link' href={frontLink} target="_blank">Source code front-end</a>
-							<a className='bot-link' href={backLink} target="_blank">Source code back-end</a>
+							<a rel="noopener noreferrer" className='bot-link' href={appLink} target="_blank">Go to the project</a>
+							<a rel="noopener noreferrer" className='bot-link' href={frontLink} target="_blank">Source code front-end</a>
+							<a rel="noopener noreferrer" className='bot-link' href={backLink} target="_blank">Source code back-end</a>
 						</Fragment> :
 						<Fragment>
-							<a className='bot-link' href={appLink} target="_blank">Vai al progetto</a>
-							<a className='bot-link' href={frontLink} target="_blank">Codice front-end</a>
-							<a className='bot-link' href={backLink} target="_blank">Codice back-end</a>
+							<a rel="noopener noreferrer" className='bot-link' href={appLink} target="_blank">Vai al progetto</a>
+							<a rel="noopener noreferrer" className='bot-link' href={frontLink} target="_blank">Codice front-end</a>
+							<a rel="noopener noreferrer" className='bot-link' href={backLink} target="_blank">Codice back-end</a>
 						</Fragment>
 					}
 				</div>

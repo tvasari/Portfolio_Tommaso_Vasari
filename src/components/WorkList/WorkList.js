@@ -7,6 +7,19 @@ import home from '../../immagini/home.png';
 
 const db = [
 	{
+		titolo: 'Giuseppe Gnozzi Official Website',
+		paragrafoEng: `Conceptual website to display artist Giuseppe Gnozzi's abstract and street art. 
+					The "Home" and "Works" pages are completley explorable by dragging them and in the "Works" page a click on any image will display a bigger version of it with its specifics. 
+					On top of that, for a better user experience, the searchbar allows to display only the desired paintings by filtering them depending on the typed letters and the pictures's tags.`,
+		paragrafoIta: `Sito web concettuale per mostrare l'arte astratta e street art dell'artista Giuseppe Gnozzi.
+					Le pagine "Home" e "Works" sono completamente esplorabili cliccando e trascinando la pagina e in "Works" cliccando su di un'immagine qualsiasi si aprirà una più grande versione di essa accompagnata dalle sue proprietà.
+					Inoltre la barra di ricerca permette di filtrare le immagini mostrando solo i dipinti desiderati in base alle lettere inserite e la loro corrispondenza nelle tag delle immagini.`,
+		immagine: mywork2,
+		appLink: 'https://giuseppegnozzi.xyz',
+		frontLink: 'https://github.com/tvasari/gggnz',
+		backLink: 'https://github.com/tvasari/gggnz_api'
+	},
+	{
 		titolo: 'Brain Rekon',
 		paragrafoEng: `Face recognition application with back-end functionalities. 
 			    After registration, the user can detect a face on an image by submitting the image URL. 
@@ -20,19 +33,6 @@ const db = [
 		appLink: 'https://brain-rekon.herokuapp.com',
 		frontLink: 'https://github.com/tvasari/brain_reckon',
 		backLink: 'https://github.com/tvasari/brain_reckon_api'
-	},
-	{
-		titolo: 'Giuseppe Gnozzi Official Website',
-		paragrafoEng: `Conceptual website to display artist Giuseppe Gnozzi's abstract and street art. 
-					The "Home" and "Works" pages are completley explorable by dragging them and in the "Works" page a click on any image will display a bigger version of it with its specifics. 
-					On top of that, for a better user experience, the searchbar allows to display only the desired paintings by filtering them depending on the typed letters and the pictures's tags.`,
-		paragrafoIta: `Sito web concettuale per mostrare l'arte astratta e street art dell'artista Giuseppe Gnozzi.
-					Le pagine "Home" e "Works" sono completamente esplorabili cliccando e trascinando la pagina e in "Works" cliccando su di un'immagine qualsiasi si aprirà una più grande versione di essa accompagnata dalle sue proprietà.
-					Inoltre la barra di ricerca permette di filtrare le immagini mostrando solo i dipinti desiderati in base alle lettere inserite e la loro corrispondenza nelle tag delle immagini.`,
-		immagine: mywork2,
-		appLink: 'https://giuseppegnozzi.xyz',
-		frontLink: 'https://github.com/tvasari/gggnz',
-		backLink: 'https://github.com/tvasari/gggnz_api'
 	}
 ];
 
