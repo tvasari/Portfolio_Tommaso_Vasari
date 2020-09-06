@@ -3,9 +3,25 @@ import Parallax from 'parallax-js';
 import Mywork from '../Mywork/Mywork.js';
 import mywork1 from '../../immagini/Mywork1.png';
 import mywork2 from '../../immagini/Mywork2.png';
+import mywork3 from '../../immagini/Mywork3.png';
 import home from '../../immagini/home.png';
 
 const db = [
+  {
+		titolo: 'Italiana Mense Gestionale',
+		paragrafoEng: `Face recognition application with back-end functionalities. 
+			    After registration, the user can detect a face on an image by submitting the image URL. 
+			    Registered users are stored in a database which remembers the number of times a user made a search. 
+			    The project was built using React.js for the front-end and node/express.js for the server side.`,
+    paragrafoIta: `Applicazione per il riconoscimento facciale con funzionalità di back-end.
+    			Dopo essersi registrato l'utente sarà capace di individuare un volto in un'immagine inserendo l'URL di questa nella barra di ricerca e cliccando detect.
+    			Gli utenti registrati vengono memorizzati in un database il quale ricorda il numero di volte che l'utente effettua una ricerca.
+    			Il progetto è stato realizzato usando React.js per il front-end e node/express.js per il lato server.`,
+		immagine: mywork3,
+		appLink: 'https://brain-rekon.herokuapp.com',
+		frontLink: 'https://github.com/tvasari/brain_reckon',
+		backLink: 'https://github.com/tvasari/brain_reckon_api'
+	},
 	{
 		titolo: 'Giuseppe Gnozzi Official Website',
 		paragrafoEng: `Conceptual website to display artist Giuseppe Gnozzi's abstract and street art. 
