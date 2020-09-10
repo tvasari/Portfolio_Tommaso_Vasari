@@ -15,7 +15,7 @@ const Mywork = ( {immagine, titolo, paragrafo, appLink, frontLink, backLink, cha
 					<p className='ma0'>/</p>
 					<button className='langchange' onClick={() => changeLang()}>ENG</button>
 				</div>
-				<p className='ma3'>{paragrafo}</p>
+				<p className='ma3'>{ paragrafo }</p>
 				<div className='ma3 linkstoproject flex justify-between'>
 					{
 						paragrafoIsEng === true ?
