@@ -1,5 +1,5 @@
-import React, { Fragment, useEffect } from 'react';
-import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from 'pages/Home/Home';
 import Bio from 'pages/Bio/Bio';
 import Contacts from 'pages/Contacts/Contacts';

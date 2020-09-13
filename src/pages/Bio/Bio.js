@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 import Logo from 'components/Logo/Logo';
+import SpotContainer from 'components/SpotContainer/SpotContainer';
+import SubSpot from 'components/SubSpot/SubSpot';
 import location from 'immagini/location.png';
 import rome from 'immagini/rome.png';
 import occupation from 'immagini/occupation.png';
@@ -13,43 +15,23 @@ const Bio = () => {
   return(
     <Fragment>
       <ul id="scene" data-pointer-events="all">
-        <li className='layer side-layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <img src={location} alt='' className='side-img info-img-top msi location'/>
-            <div className='mini-box'>
-              <img src={rome} alt='' className='side-img info-img-bot'/>
-              <div className='search rome'></div>
-            </div>
-          </div>
-        </li>
-        <li className='layer side-layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <img src={age} alt='' className='side-img info-img-top msi'/>
-            <div className='mini-box'>
-              <img src={a28} alt='' className='side-img info-img-bot'/>
-              <div className='search a28'></div>
-            </div>
-          </div>						
-        </li>
+        <SpotContainer>
+          <img src={location} alt='location' className='info-img-top msi'/>
+          <SubSpot displayImage={rome} imageDescription="Rome, Italy"/>
+        </SpotContainer>
+        <SpotContainer>
+          <img src={age} alt='age' className='side-img info-img-top msi'/>
+          <SubSpot displayImage={a28} imageDescription="28"/>
+        </SpotContainer>
         <Logo />
-        <li className='layer side-layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <img src={occupation} alt='' className='side-img info-img-top msi occupation'/>
-            <div className='mini-box'>
-              <img src={fullstack} alt='' className='side-img info-img-bot fullstack'/>
-              <div className='search fullstack'></div>
-            </div>
-          </div>						
-        </li>
-        <li className='layer side-layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <img src={speaks} alt='' className='side-img info-img-top msi speaks'/>
-            <div className='mini-box'>
-              <img src={lang} alt='' className='side-img info-img-bot lang'/>
-              <div className='search lang'></div>
-            </div>
-          </div>							
-        </li>
+        <SpotContainer>
+          <img src={occupation} alt='occupation' className='side-img info-img-top msi occupation'/>
+          <SubSpot displayImage={fullstack} imageDescription="Fullstack"/>
+        </SpotContainer>
+        <SpotContainer>
+          <img src={speaks} alt='speaks' className='side-img info-img-top msi speaks'/>
+          <SubSpot displayImage={lang} imageDescription="Italian, English, Spanish"/>
+        </SpotContainer>
       </ul>
     </Fragment>
   );

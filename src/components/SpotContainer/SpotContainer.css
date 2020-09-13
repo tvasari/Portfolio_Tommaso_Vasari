@@ -8,9 +8,3 @@ li.layer {
   margin: auto;
   height: 100%;
 }
-
-#home-link {
-  cursor: pointer;
-  float: left;
-  height: 1.8rem;
-}

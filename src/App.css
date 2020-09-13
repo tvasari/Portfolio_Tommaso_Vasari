@@ -24,27 +24,9 @@ ul#scene > * {
   100% { bottom: 0; }
 }
 
-div.search {
-  animation-duration: 1s;
-  animation-name: animate;
-  animation-iteration-count: infinite;
-}
-
-.search {
-  position: absolute;
-  width: 12px;
-  border: 2px solid #2DFF00;
-  background-color: #2DFF00;
-  bottom: 0;
-}
-
 img.info-img-top {
   margin-bottom: 15px;
   height: 1.5rem;
-}
-
-img.info-img-bot {
-  height: .8rem;
 }
 
 div.fullstack {
@@ -71,12 +53,7 @@ div.fullstack {
   left: 101%;
 }
 
-.mini-box {
-  margin-top: 39px;
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-}
+
 
 a img.msi, img.speaks, img.mobile, img.email, img.occupation, img.location, img.fullstack, img.contacts, img.works, img.resume {
   max-width: 175%;

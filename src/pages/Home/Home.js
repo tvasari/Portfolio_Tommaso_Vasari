@@ -1,21 +1,29 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import Logo from 'components/Logo/Logo';
+import SpotLink from 'components/SpotLink/SpotLink';
+import SpotContainer from 'components/SpotContainer/SpotContainer';
 import resume from 'immagini/resume.png';
 import bio from 'immagini/bio.png';
 import contacts from 'immagini/contacts.png';
 import works from 'immagini/works.png';
-import LinkToPage from 'components/LinkToPage/LinkToPage';
 
 const Home = () => {
   return(
     <Fragment>
       <ul id="scene" data-pointer-events="all">
-        <LinkToPage pageName="bio" display={bio}/>
-        <LinkToPage pageName="contacts" display={contacts}/>
+        <SpotContainer>
+          <SpotLink pageName="bio" displayImage={bio}/>
+        </SpotContainer>
+        <SpotContainer>
+          <SpotLink pageName="contacts" displayImage={contacts}/>
+        </SpotContainer>
         <Logo/>
-        <LinkToPage pageName="works" display={works}/>
-        <LinkToPage pageName="resume" display={resume}/>
+        <SpotContainer>
+          <SpotLink pageName="works" displayImage={works}/>
+        </SpotContainer>
+        <SpotContainer>
+          <SpotLink pageName="resume" displayImage={resume}/>
+        </SpotContainer>
       </ul>
     </Fragment>
   );

@@ -1,0 +1,22 @@
+.mini-box {
+  margin-top: 39px;
+  position: absolute;
+  display: flex;
+}
+
+img.sub-spot {
+  height: .8rem;
+  padding-right: 3px;
+}
+
+.underscore {
+  position: relative;
+  width: 12px;
+  border: 2px solid #2DFF00;
+  background-color: #2DFF00;
+  animation-duration: 1s;
+  animation-name: animate;
+  animation-iteration-count: infinite;
+  height: 1px;
+  align-self: flex-end;
+}
