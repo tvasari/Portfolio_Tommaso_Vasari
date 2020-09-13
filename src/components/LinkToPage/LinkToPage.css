@@ -1,0 +1,16 @@
+li.layer {
+  width: 50vw;
+  left: 5%!important;
+}
+
+.box-img {
+  width: 45%; 
+  margin: auto;
+  height: 100%;
+}
+
+#home-link {
+  cursor: pointer;
+  float: left;
+  height: 1.8rem;
+}

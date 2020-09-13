@@ -1,5 +1,9 @@
+li.layer {
+  width: 50vw;
+  left: 5%!important;
+}
+
 #logo {
   grid-column-start: span 2;
-  width: 95vw;
-  margin: 0 auto 0 auto;
+  width: 90vw;
 }

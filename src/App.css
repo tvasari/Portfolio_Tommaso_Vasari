@@ -17,28 +17,6 @@ ul#scene > * {
   position: relative!important;
 }
 
-.click {
-  cursor: pointer;
-}
-
-li.layer {
-  width: 50vw;
-}
-
-.no-logo {
-  left: 5%!important;
-}
-
-.box-img {
-  width: 45%; 
-  margin: auto;
-  height: 100%;
-}
-
-.side-img {
-  float: left;
-}
-
 @keyframes animate {
   0% { visibility: hidden; }
   25% { bottom: 0; }
@@ -98,10 +76,6 @@ div.fullstack {
   position: absolute;
   display: flex;
   flex-direction: column;
-}
-
-.msi {
-  height: 1.8rem;
 }
 
 a img.msi, img.speaks, img.mobile, img.email, img.occupation, img.location, img.fullstack, img.contacts, img.works, img.resume {

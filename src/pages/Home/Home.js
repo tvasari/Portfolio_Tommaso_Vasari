@@ -5,36 +5,17 @@ import resume from 'immagini/resume.png';
 import bio from 'immagini/bio.png';
 import contacts from 'immagini/contacts.png';
 import works from 'immagini/works.png';
+import LinkToPage from 'components/LinkToPage/LinkToPage';
 
 const Home = () => {
   return(
     <Fragment>
       <ul id="scene" data-pointer-events="all">
-        <li className='layer no-logo' data-depth='0.7'>
-          <Link to="/bio">
-            <div className='box-img'>
-              <img src={bio} alt='' className='click bio side-img msi'/>
-            </div>
-          </Link>
-        </li>
-        <li onClick={(e) => this.changeRoute('contacts')} className='layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <img src={contacts} alt='' className='click contacts side-img msi'/>
-          </div>
-        </li>
+        <LinkToPage pageName="bio" display={bio}/>
+        <LinkToPage pageName="contacts" display={contacts}/>
         <Logo/>
-        <li onClick={() => this.changeRoute('works')} className='layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <img src={works} alt='' className='click works side-img msi'/>
-          </div>
-        </li>
-        <li className='layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <a href='https://tvasari.github.io/' rel="noopener noreferrer" target="_blank">
-              <img src={resume} alt='' className='click resume side-img msi'/>
-            </a>
-          </div>
-        </li>
+        <LinkToPage pageName="works" display={works}/>
+        <LinkToPage pageName="resume" display={resume}/>
       </ul>
     </Fragment>
   );

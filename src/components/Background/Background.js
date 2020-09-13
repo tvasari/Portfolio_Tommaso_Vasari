@@ -3,6 +3,7 @@ import background from 'immagini/f800px.gif';
 import './Background.css';
 
 const Background = ({ children }) => {
+  
   return(
     <Fragment>
       <img src={background} alt='background' className='bg'/>			    
