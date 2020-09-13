@@ -113,7 +113,7 @@ class WorkList extends Component {
 				<li onClick={(e) => this.props.changeRoute('home')} className='layer ml4 mt4 mb4' style={{width: '14vw', 'grid-column-start': 'span 2',}} data-depth='0.3'>
 					<img src={home} alt='' className='click'/>
 				</li>
-				<li className='layer' data-depth='0.2'>
+				<li className='layer'>
           {
             db.map(work => {
               return <Mywork
