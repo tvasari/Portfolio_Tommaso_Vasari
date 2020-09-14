@@ -11,7 +11,7 @@ import Parallax from 'parallax-js';
 const App = () => {
 
   let doParallax = () => {
-		var scene = document.getElementById('scene');
+		let scene = document.getElementById('scene');
 		new Parallax(scene);
 	}
 
@@ -25,20 +25,22 @@ const App = () => {
 
   return(
     <Background>
-      <BrowserRouter forceRefresh>
+      <BrowserRouter>
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route path="/bio">
-            <Bio />
-          </Route>
-          <Route path="/contacts">
-            <Contacts />
-          </Route>
-          <Route path="/works">
-            <Works />
-          </Route>
+          <ul id="scene" data-pointer-events="all"> 
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/bio">
+              <Bio />
+            </Route>
+            <Route path="/contacts">
+              <Contacts />
+            </Route>
+            <Route path="/works">
+              <Works />
+            </Route>
+          </ul>
         </Switch>
       </BrowserRouter>
     </Background>

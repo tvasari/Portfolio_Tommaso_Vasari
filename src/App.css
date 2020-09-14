@@ -2,6 +2,7 @@ ul {
   height: 100vh;
   overflow: hidden;
   padding: 0;
+  list-style: none;
 }
 
 #scene {
@@ -27,6 +28,7 @@ ul#scene > * {
 img.info-img-top {
   margin-bottom: 15px;
   height: 1.5rem;
+  width: max-content;
 }
 
 div.fullstack {

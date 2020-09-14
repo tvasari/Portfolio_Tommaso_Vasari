@@ -109,8 +109,8 @@ class WorkList extends Component {
 	render() {
 		const { paragrafoIsEng } = this.state;
 		return(
-			<ul id='scene' className='overflow-auto' data-pointer-events="all">
-				<li onClick={(e) => this.props.changeRoute('home')} className='layer ml4 mt4 mb4' style={{width: '14vw', 'grid-column-start': 'span 2',}} data-depth='0.3'>
+      <Fragment>
+				<li className='layer ml4 mt4 mb4' style={{width: '14vw', 'grid-column-start': 'span 2',}} data-depth='0.3'>
 					<img src={home} alt='' className='click'/>
 				</li>
 				<li className='layer'>
@@ -129,7 +129,7 @@ class WorkList extends Component {
             })
           }
 				</li>
-			</ul>
+      </Fragment>
 		);
 	};
 }

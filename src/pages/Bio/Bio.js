@@ -14,25 +14,23 @@ import a28 from 'immagini/28.png';
 const Bio = () => {
   return(
     <Fragment>
-      <ul id="scene" data-pointer-events="all">
-        <SpotContainer>
-          <img src={location} alt='location' className='info-img-top msi'/>
-          <SubSpot displayImage={rome} imageDescription="Rome, Italy"/>
-        </SpotContainer>
-        <SpotContainer>
-          <img src={age} alt='age' className='side-img info-img-top msi'/>
-          <SubSpot displayImage={a28} imageDescription="28"/>
-        </SpotContainer>
-        <Logo />
-        <SpotContainer>
-          <img src={occupation} alt='occupation' className='side-img info-img-top msi occupation'/>
-          <SubSpot displayImage={fullstack} imageDescription="Fullstack"/>
-        </SpotContainer>
-        <SpotContainer>
-          <img src={speaks} alt='speaks' className='side-img info-img-top msi speaks'/>
-          <SubSpot displayImage={lang} imageDescription="Italian, English, Spanish"/>
-        </SpotContainer>
-      </ul>
+      <SpotContainer>
+        <img src={location} alt='location' className='info-img-top msi'/>
+        <SubSpot displayImage={rome} imageDescription="Rome, Italy"/>
+      </SpotContainer>
+      <SpotContainer>
+        <img src={age} alt='age' className='side-img info-img-top msi'/>
+        <SubSpot displayImage={a28} imageDescription="28"/>
+      </SpotContainer>
+      <Logo />
+      <SpotContainer>
+        <img src={occupation} alt='occupation' className='side-img info-img-top msi occupation'/>
+        <SubSpot displayImage={fullstack} imageDescription="Fullstack"/>
+      </SpotContainer>
+      <SpotContainer>
+        <img src={speaks} alt='speaks' className='side-img info-img-top msi speaks'/>
+        <SubSpot displayImage={lang} imageDescription="Italian, English, Spanish"/>
+      </SpotContainer>
     </Fragment>
   );
 }

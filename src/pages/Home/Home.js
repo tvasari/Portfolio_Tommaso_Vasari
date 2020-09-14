@@ -10,21 +10,19 @@ import works from 'immagini/works.png';
 const Home = () => {
   return(
     <Fragment>
-      <ul id="scene" data-pointer-events="all">
-        <SpotContainer>
-          <SpotLink pageName="bio" displayImage={bio}/>
-        </SpotContainer>
-        <SpotContainer>
-          <SpotLink pageName="contacts" displayImage={contacts}/>
-        </SpotContainer>
-        <Logo/>
-        <SpotContainer>
-          <SpotLink pageName="works" displayImage={works}/>
-        </SpotContainer>
-        <SpotContainer>
-          <SpotLink pageName="resume" displayImage={resume}/>
-        </SpotContainer>
-      </ul>
+      <SpotContainer>
+        <SpotLink pageName="bio" displayImage={bio}/>
+      </SpotContainer>
+      <SpotContainer>
+        <SpotLink pageName="contacts" displayImage={contacts}/>
+      </SpotContainer>
+      <Logo/>
+      <SpotContainer>
+        <SpotLink pageName="works" displayImage={works}/>
+      </SpotContainer>
+      <SpotContainer>
+        <SpotLink pageName="resume" displayImage={resume}/>
+      </SpotContainer>
     </Fragment>
   );
 }

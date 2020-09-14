@@ -13,31 +13,29 @@ import mobilenumber from 'immagini/mobilenumber.png';
 const Contacts = () => {
   return(
     <Fragment>
-      <ul id="scene" data-pointer-events="all">
-        <SpotContainer>
-          <a rel="noopener noreferrer" href='https://github.com/tvasari' target="_blank">
-            <img src={github} alt='github' className='info-img-top msi'/>
-          </a>
-        </SpotContainer>
-        <SpotContainer>
-          <a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/' target="_blank" rel="noopener noreferrer">
-            <img src={linkedin} alt='linkedin' className='info-img-top msi'/>
-          </a>
-        </SpotContainer>
-        <Logo />
-        <SpotContainer>						
-          <img src={email} alt='email-me' className='msi info-img-top email'/>
-          <button type="button" onClick={() => console.log('use function to open email client')}>
-            <SubSpot displayImage={email2} imageDescription="tommaso.vasari@gmail.com" />
-          </button>
-        </SpotContainer>
-        <SpotContainer>
-          <img src={mobile} alt='mobile' className='msi info-img-top mobile'/>
-          <a href='tel:+39 3426822422'>
-            <SubSpot displayImage={mobilenumber} imageDescription="+39 3426822422"/>  
-          </a>
-        </SpotContainer>
-      </ul>
+      <SpotContainer>
+        <a rel="noopener noreferrer" href='https://github.com/tvasari' target="_blank">
+          <img src={github} alt='github' className='info-img-top msi'/>
+        </a>
+      </SpotContainer>
+      <SpotContainer>
+        <a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/' target="_blank" rel="noopener noreferrer">
+          <img src={linkedin} alt='linkedin' className='info-img-top msi'/>
+        </a>
+      </SpotContainer>
+      <Logo />
+      <SpotContainer>						
+        <img src={email} alt='email-me' className='msi info-img-top email'/>
+        <button type="button" onClick={() => console.log('use function to open email client')}>
+          <SubSpot displayImage={email2} imageDescription="tommaso.vasari@gmail.com" />
+        </button>
+      </SpotContainer>
+      <SpotContainer>
+        <img src={mobile} alt='mobile' className='msi info-img-top mobile'/>
+        <a href='tel:+39 3426822422'>
+          <SubSpot displayImage={mobilenumber} imageDescription="+39 3426822422"/>  
+        </a>
+      </SpotContainer>
     </Fragment>
   );
 }

@@ -7,4 +7,6 @@ li.layer {
   width: 45%; 
   margin: auto;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
