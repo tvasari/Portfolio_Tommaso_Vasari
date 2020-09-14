@@ -1,5 +1,8 @@
 import React, { Fragment } from 'react';
 import Logo from 'components/Logo/Logo';
+import SpotContainer from 'components/SpotContainer/SpotContainer';
+import SubSpot from 'components/SubSpot/SubSpot';
+import './Contacts.css';
 import github from 'immagini/github.png';
 import linkedin from 'immagini/linkedin.png';
 import email from 'immagini/email.png';
@@ -11,41 +14,29 @@ const Contacts = () => {
   return(
     <Fragment>
       <ul id="scene" data-pointer-events="all">
-        <li className='layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <a rel="noopener noreferrer" href='https://github.com/tvasari' target="_blank">
-              <img src={github} alt='' className='side-img info-img-top msi'/>
-            </a>
-          </div>							
-        </li>
-        <li className='layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/' target="_blank" rel="noopener noreferrer">
-              <img src={linkedin} alt='' className='side-img info-img-top msi'/>
-            </a>
-          </div>								
-        </li>						
-        <Logo />						
-        <li className='layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <img src={email} alt='email-me' className='side-img msi info-img-top email'/>
-            <div className='mini-box'>
-              <img onClick={e => this.emailMe()} src={email2} alt='tommaso.vasari@gmail.com' className='email2 click side-img info-img-bot'/>
-              <div className='search email1'></div>
-            </div>
-          </div>	
-        </li>						
-        <li className='layer no-logo' data-depth='0.7'>
-          <div className='box-img'>
-            <img src={mobile} alt='' className='side-img msi info-img-top mobile'/>
-            <div className='mini-box'>
-              <a href='tel:+39 3426822422'>
-                <img src={mobilenumber} alt='' className='side-img info-img-bot'/>
-                <div className='search mobilenumber'></div>
-              </a>
-            </div>
-          </div>								
-        </li>
+        <SpotContainer>
+          <a rel="noopener noreferrer" href='https://github.com/tvasari' target="_blank">
+            <img src={github} alt='github' className='info-img-top msi'/>
+          </a>
+        </SpotContainer>
+        <SpotContainer>
+          <a href='https://www.linkedin.com/in/tommaso-vasari-0ba8721a5/' target="_blank" rel="noopener noreferrer">
+            <img src={linkedin} alt='linkedin' className='info-img-top msi'/>
+          </a>
+        </SpotContainer>
+        <Logo />
+        <SpotContainer>						
+          <img src={email} alt='email-me' className='msi info-img-top email'/>
+          <button type="button" onClick={() => console.log('use function to open email client')}>
+            <SubSpot displayImage={email2} imageDescription="tommaso.vasari@gmail.com" />
+          </button>
+        </SpotContainer>
+        <SpotContainer>
+          <img src={mobile} alt='mobile' className='msi info-img-top mobile'/>
+          <a href='tel:+39 3426822422'>
+            <SubSpot displayImage={mobilenumber} imageDescription="+39 3426822422"/>  
+          </a>
+        </SpotContainer>
       </ul>
     </Fragment>
   );

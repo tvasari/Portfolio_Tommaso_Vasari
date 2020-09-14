@@ -1,7 +1,6 @@
 .mini-box {
-  margin-top: 39px;
-  position: absolute;
   display: flex;
+  width: max-content;
 }
 
 img.sub-spot {
